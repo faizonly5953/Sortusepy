@@ -39,4 +39,4 @@ input_list = [int(x) for x in input_str.split()]
 print(f"Input List: {input_list}")
 
 sorted_list = merge_sort(input_list)
-print(f"Liat Yang Sudah Tersort: {sorted_list}")
+print(f"List Yang Sudah Tersort: {sorted_list}")
