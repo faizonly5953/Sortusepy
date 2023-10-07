@@ -1,46 +1,45 @@
-# Sortusepy
-Various Sorting Methods Using Python
+# sortusepy
+Berbagai Metode Penyortiran Menggunakan Python
 
-# Sorting Algorithms in Python
+# Algoritma Pengurutan dengan Python
 
-This repository contains Python implementations of various sorting algorithms. Each algorithm is interactive, allowing the user to input a list they want to sort and displaying the steps of the sorting process.
+Repositori ini berisi implementasi Python dari berbagai algoritma pengurutan. Setiap algoritma bersifat interaktif, memungkinkan pengguna untuk memasukkan list angka yang ingin mereka urutkan dan menampilkan langkah-langkah proses penyortiran.
 
 ## Merge Sort
 
-Merge Sort is a divide-and-conquer algorithm that recursively splits a list into smaller sublists, sorts them, and then merges the sorted sublists.
+Merge Sort adalah algoritme bagi-dan-taklukkan yang secara rekursif membagi daftar menjadi subdaftar yang lebih kecil, mengurutkannya, lalu menggabungkan subdaftar yang telah diurutkan.
 
-- To run the Merge Sort algorithm, use `MergeSort.py`.
+- Untuk menjalankan algoritma Merge Sort, gunakan `MergeSort.py`.
 
 ## Insertion Sort
 
-Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time.
+Insertion Sort adalah algoritma pengurutan sederhana yang membangun array akhir yang diurutkan satu item dalam satu waktu.
 
-- To run the Insertion Sort algorithm, use `InsertionSort`.
+- Untuk menjalankan algoritma Insertion Sort, gunakan `InsertionSort`.
 
 ## Bubble Sort
 
-Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+Bubble Sort adalah algoritme pengurutan sederhana yang berulang kali menelusuri daftar, membandingkan elemen yang berdekatan, dan menukarnya jika urutannya salah.
 
-- To run the Bubble Sort algorithm, use `BubbleSort.py`.
+- Untuk menjalankan algoritma Bubble Sort, gunakan `BubbleSort.py`.
 
 ## Selection Sort
+Selection Sort adalah algoritma pengurutan perbandingan di tempat yang membagi daftar menjadi dua bagian: bagian kiri diurutkan, dan bagian kanan tidak diurutkan. Ini berulang kali memilih elemen minimum dari bagian yang tidak diurutkan dan memindahkannya ke bagian yang diurutkan.
 
-Selection Sort is an in-place comparison sorting algorithm that divides the list into two parts: the left part is sorted, and the right part is unsorted. It repeatedly selects the minimum element from the unsorted part and moves it to the sorted part.
-
-- To run the Selection Sort algorithm, use `SelectionSort.py`.
+- Untuk menjalankan algoritma Selection Sort, gunakan `SelectionSort.py`.
 
 ## Quick Sort
 
-Quick Sort is a divide-and-conquer algorithm that selects a pivot element and partitions the array into two subarrays: elements less than the pivot and elements greater than the pivot. It then recursively sorts the subarrays.
+Quick Sort adalah algoritme bagi-dan-taklukkan yang memilih elemen pivot dan mempartisi array menjadi dua subarray: elemen yang lebih kecil dari pivot dan elemen yang lebih besar dari pivot. Ini kemudian mengurutkan subarray secara rekursif.
 
-- To run the Quick Sort algorithm, use `QuickSort.py`.
+- Untuk menjalankan algoritma Quick Sort, gunakan `QuickSort.py`.
 
-## Usage
+## Penggunaan
 
-1. Clone this repository to your local machine.
-2. Navigate to the algorithm of your choice.
-3. Run the Python script.
-4. Enter a list of numbers separated by spaces when prompted.
-5. Observe the step-by-step sorting process.
+1. Kloning repositori ini ke mesin lokal Anda.
+2. Navigasikan ke algoritma pilihan Anda.
+3. Jalankan skrip Python.
+4. Masukkan daftar nomor yang dipisahkan spasi saat diminta.
+5. Amati proses penyortiran langkah demi langkah.
 
-Feel free to use and modify these sorting algorithms for your own projects!
+Jangan ragu untuk menggunakan dan memodifikasi algoritma pengurutan ini untuk proyek Anda sendiri!
